@@ -1,0 +1,68 @@
+body {
+    background-color: #CED4D8;
+}
+
+h1 {
+    color: #AC6AC7;
+}
+
+h2 {
+    color: rgb(255,165,0);
+}
+
+li {
+    color: blue;
+}
+
+p {
+    background-color: gold;
+}
+
+input[type=text], input[type=email] {
+    border: pink;
+    border-style: dotted;
+    border-radius: 5px;
+}
+
+.first {
+    background-color: #fff;
+}
+
+#important {
+    border: blue;
+    border-style: dashed;
+    border-radius: 3px;
+}
+
+div p {
+    font-size: 30px;
+}
+
+input[type=email] {
+    background-color: #808080;
+}
+
+#firstP, #secondP {
+background-color: hotpink;
+}
+
+#secondP {
+    border: rgb(255,255,255);
+    border-style: solid;
+    border-radius: 7px;
+}
+
+p em {
+    color: seashell;
+    font-size: 25px;
+}
+
+input:checked {
+    margin-left: 40px;
+}
+h1:hover {
+    color: navy;
+}
+a:visited {
+    color: silver;
+}
