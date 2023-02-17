@@ -33,6 +33,10 @@ input[type=text], input[type=email] {
     border-style: dashed;
     border-radius: 3px;
 }
+#important::first-letter {
+    color: lime;
+    font-size: 90px;
+}
 
 div p {
     font-size: 30px;
@@ -42,11 +46,11 @@ input[type=email] {
     background-color: #808080;
 }
 
-#firstP, #secondP {
+div:nth-child(3) p {
 background-color: hotpink;
 }
 
-#secondP {
+div:nth-child(3) p:nth-of-type(2) {
     border: rgb(255,255,255);
     border-style: solid;
     border-radius: 7px;
