@@ -70,3 +70,7 @@ h1:hover {
 a:visited {
     color: silver;
 }
+
+label {
+    text-transform: lowercase;
+}
